@@ -1,3 +1,64 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="outer">
+  <div class="main-container">
+    <img class="logo-img" src="img/logo.png" alt="" />
+  </div>
+  <div class="link-cont">
+    <button class="toplink show-portfolio to-portfolio" href="#">Portfolio</button>
+    <button class="toplink show-about to-about">About</button>
+    <button class="toplink show-contact to-about">Contact</button>
+  </div>
+  <div class="">
+    <div class="dropdown-holder slidehold">
+      <ul class="menu-portfolio">
+        <li class="menu-li portfolio">
+          <div id="cssSlider">
+            <div id="sliderImages">
+              <a href="/steam-punch/index.html" target="_blank"><img id="si_2" class="port-div" src="img/tb.jpg" alt=""></a>
+              <p class="hidden-on">Interactive "Steam Punk" game</p>
+              <a href="http://badview08.github.io/colonial-life/" target="_blank"><img id="si_1" class="port-div" src="img/example.jpg" alt=""></a>
+              <p class="hidden-on">Web mockup for company in Columbia, SC</p>
+              <a href="http://badview08.github.io/madmobiletest/" target="_blank"><img id="si_3" class="port-div" src="img/madmobile.jpg" alt=""></a>
+              <p class="hidden-on">Web mockup for company in Tampa, FL</p>
+              <div style="clear:left;"></div>
+            </div>
+          </div>
+        </li>
+        <button class="show-portfolio close"><i class="fa fa-caret-square-o-up fa-2x"></i></button>
+      </ul>
+    </div>
+    <div class="dropdown-holder abouthold">
+      <ul class="menu-about">
+        <li class="menu-li about">
+          <a href="https://gabejonesblog.wordpress.com/"><img src="img/self.jpg" class="profile" alt=""></a>
+          
+          <h2>A bit about myself</h2>
+          <p class="about-his">
+          I just recently graduated The Iron Yard as of July 2015 in Greenville, SC. 
+          I love programming, listening to audiobooks and I'm an avid gamer. I enjoy fixing anything electronic!
+          <br>
+          <br>I look forward to speaking with you and demonstrating how I can be a useful addition to your team.
+          </p>
+          <p class="about-his">I now live in the Columbia, SC area!</p>
+          <button class="show-about close"><i class="fa fa-caret-square-o-up fa-2x"></i></button>
+        </li>
+      </ul>
+      
+    </div>
+    <div class="dropdown-holder conthold">
+      <ul class="menu-contact">
+        <li class="menu-li contact"></li>
+         <li class="social"><a href="http://twitter.com/intent/tweet?screen_name=gabe___j" target="_blank"><i class="fa fa-twitter fa-2x"></i> @gabe___j</a></li>
+        <li class="social"><a href="callto://+badview08"><i class="fa fa-skype fa-2x"></i> badview08</a></li>
+        <li class="social"><a href="http://www.github.com/badview08" target="_blank"><i class="fa fa-github fa-2x"></i> badview08</a></li>
+        <li class="social"><a href="https://www.linkedin.com/in/jonesgabriel01"><i class="fa fa-linkedin fa-2x"></i> Gabriel Jones</a></li>
+        <li class="social"><a href="facetime-audio://jonesgabriel21@icloud.com"><i class="fa fa-apple fa-2x"></i> FaceTime Audio Link</a></li>
+        <li class="social"><a href="mailto:gabe@gabe-jones.com"><i class="fa fa-envelope fa-2x"></i> gabe@gabe-jones.com</a></li>
+         <li class="social"><a href="https://drive.google.com/file/d/0B3GyGCOc1S6sUjJzUmJyTEdDc2M/view?usp=sharing"><i class="fa fa-paperclip fa-2x"></i>Resume</a></li>
+        <button class="show-contact close"><i class="fa fa-caret-square-o-up fa-2x"></i></button>
+      </ul>
+    </div>
+  </div>
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></a>
 
+</div>
 {{outlet}}
